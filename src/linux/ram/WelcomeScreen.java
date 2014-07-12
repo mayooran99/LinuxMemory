@@ -91,7 +91,7 @@ public class WelcomeScreen extends JFrame {
 					{
 						try {
 							Thread.sleep(1000);
-							new MainFrame().show();
+							new HomePage().show();
 						} catch (InterruptedException e) {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
